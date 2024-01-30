@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #eeeeee;
+}
+
+.main-header{
+    background-color: #ffffff;
+}
+
+.main-header-content{
+    padding: 10px;
+}
+
+.main-title{
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: 5px;
+    vertical-align: bottom;
+}
+
