@@ -69,8 +69,9 @@ body{
 }
 
 .uncolored{
-    background-color: #eeeeee;
-    border: none;
+    background-color: #ffffff;
+    border: 0.5px solid rgba(39, 37, 37,0.5);
+    color: rgba(39, 37, 37,0.3)
 }
 
 .divider{
