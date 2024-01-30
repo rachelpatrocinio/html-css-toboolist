@@ -41,15 +41,14 @@ body{
 }
 
 .container{
-    max-width:80%;
-    margin: 0 auto;
+    padding: 10px 50px;
 }
 
 /* Form */
 
-/* .form{
+.form{
     border-bottom: 3px solid #eeeeee;
-} */
+}
 
 .buttons{
     margin: 2% 0 2% 0;
@@ -81,15 +80,6 @@ body{
 
 
 /* Section */
-
-.section{
-    padding: 3.5% 0;
-}
-
-.section-title{
-    font-size: 25px;
-}
-
 .display-inline{
     display: inline;
 }
@@ -98,9 +88,13 @@ body{
     vertical-align: super;
 }
 
-/* Highlighting */
+.main-item-list{
+    margin: 20px 0;
+}
 
-.highlight{
+/* Colored Tags */
+
+.tag{
     padding: 3px 10px;
     font-size: 12px;
     font-weight: 700;
