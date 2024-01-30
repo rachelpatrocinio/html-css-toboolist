@@ -46,6 +46,10 @@ body{
 
 /* Form */
 
+/* .form{
+    border-bottom: 3px solid #eeeeee;
+} */
+
 .buttons{
     margin: 2% 0 2% 0;
     padding: 2%;
@@ -68,10 +72,16 @@ body{
     border: none;
 }
 
+.divider{
+    border-bottom: 3px solid #eeeeee;
+}
+
+
+
 /* Section */
 
 .section{
-    padding: 5% 0;
+    padding: 3.5% 0;
 }
 
 .section-title{
