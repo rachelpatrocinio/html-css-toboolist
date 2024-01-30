@@ -34,7 +34,7 @@ body{
 
 .wrapper{
     max-width: 70%;
-    margin: 5% auto;
+    margin: 30px auto;
     background-color: #ffffff;
     border-radius: 10px;
 }
@@ -45,10 +45,6 @@ body{
 }
 
 /* Form */
-
-.form{
-    border-bottom: 3px solid #eeeeee;
-}
 
 .buttons{
     margin: 2% 0 2% 0;
@@ -75,7 +71,7 @@ body{
 /* Section */
 
 .section{
-    margin-top: 30px;
+    padding: 5% 0;
 }
 
 .section-title{
