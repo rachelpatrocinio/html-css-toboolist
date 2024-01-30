@@ -3,9 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>html-css-toboolist</title>
 </head>
@@ -14,16 +11,105 @@
     <header class="main-header">
         <div class="main-header-content">
             <img src="./img/Logo.png" alt="">
-            <p class="main-title">Toboolist</p>
+            <p class="header-title">Toboolist</p>
         </div>
     </header>
 
     <main class="wrapper">
 
-        <form class="container">
-            <input type="submit" value="Add Task" class="buttons"> 
-            <input type="submit" value="Add Section" class="buttons"> 
+        <form class="form container">
+            <input type="submit" value="Add Task" class="colored buttons"> 
+            <input type="submit" value="Add Section" class="uncolored buttons"> 
         </form>
+
+        <!-- <section class="section container">
+            <div>
+                <img src="./img/down-arrow.png" alt="">
+                <h3 class="display-inline"> New Task</h3>    
+            </div>
+            <div>
+                <img src="./img/check-mark.png" alt="">
+                <p class="display-inline">Quarterly Newsletter</p>
+                <span class="highlight bg_blue">Editorial</span>  
+            </div>
+        </section> -->
+
+        <section class="section container">
+            <ul>
+                <li>
+                    <img src="./img/down-arrow.png" alt="">
+                    <strong class="section-title  vertical-align">New Task</strong> 
+                    <li>
+                        <img src="./img/check-mark.png" alt="">
+                        <p class="display-inline vertical-align">Quarterly Newsletter</p>
+                        <span class="highlight bg_blue">Editorial</span>  
+                    </li>
+
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="section container">
+            <ul>
+                <li>
+                    <img src="./img/down-arrow.png" alt="">
+                    <strong class="section-title vertical-align">Today</strong> 
+                    <ul>
+                        <li>
+                            <img src="./img/check-mark.png" alt="">
+                            <p class="display-inline vertical-align">Quarterly Newsletter</p>
+                            <span class="highlight bg_blue">Editorial</span>  
+                        </li>
+                        <li>
+                            <img src="./img/check-mark.png" alt="">
+                            <p class="display-inline vertical-align">Mobile App Launch</p>
+                            <span class="highlight bg_violet">Q1 Goals</span>  
+                        </li>
+                        <li>
+                            <img src="./img/cancel.png" alt="">
+                            <p class="display-inline vertical-align">Interview John H.</p>
+                            <span class="highlight bg_green">Recruiting</span>  
+                        </li>
+                        <li>
+                            <img src="./img/check-mark.png" alt="">
+                            <p class="display-inline vertical-align">Summit update to mobile storefronts</p>
+                            <span class="highlight bg_orange">Mobile</span>  
+                        </li>
+                    </ul>
+                </li>
+            </ul>            
+        </section>
+
+        <section class="section container">
+            <ul>
+                <li>
+                    <img src="./img/down-arrow.png" alt="">
+                    <strong class="section-title vertical-align">Upcoming</strong> 
+                    <ul>
+                        <li>
+                            <img src="./img/cancel.png" alt="">
+                            <p class="display-inline vertical-align">Schedule meeting with Alex</p>
+                        </li>
+                        <li>
+                            <img src="./img/check-mark.png" alt="">
+                            <p class="display-inline vertical-align">Homepage refresh</p>
+                            <span class="highlight bg_pink">Website</span>  
+                        </li>
+                        <li>
+                            <img src="./img/check-mark.png" alt="">
+                            <p class="display-inline vertical-align">Onboard new Sales team members</p>
+                            <span class="highlight bg_green">Sales</span>  
+                        </li>
+                        <li>
+                            <img src="./img/check-mark.png" alt="">
+                            <p class="display-inline vertical-align">Review editorial calendar</p>
+                            <span class="highlight bg_blue">Editorial</span>  
+                        </li>
+                    </ul>
+                </li>
+            </ul>            
+        </section>
 
     </main>
 

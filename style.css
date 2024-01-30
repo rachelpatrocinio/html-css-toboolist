@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
+ul{
+    list-style: none;
+}
+
 body{
-    font-family: 'Roboto', sans-serif;
     background-color: #eeeeee;
 }
 
@@ -19,7 +22,7 @@ body{
     padding: 10px;
 }
 
-.main-title{
+.header-title{
     display: inline-block;
     font-size: 50px;
     font-weight: 400;
@@ -41,10 +44,85 @@ body{
     margin: 0 auto;
 }
 
+/* Form */
+
+.form{
+    border-bottom: 3px solid #eeeeee;
+}
+
 .buttons{
     margin: 2% 0 2% 0;
-    padding: 1%;
+    padding: 2%;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
+
+.buttons:hover{
+    border: 2px solid black;
+}
+
+.colored{
+    background-color: #3eb4e7;
+    color: #ffffff;
+}
+
+.uncolored{
+    background-color: #eeeeee;
+    border: none;
+}
+
+/* Section */
+
+.section{
+    margin-top: 30px;
+}
+
+.section-title{
+    font-size: 25px;
+}
+
+.display-inline{
+    display: inline;
+}
+
+.vertical-align{
+    vertical-align: super;
+}
+
+/* Highlighting */
+
+.highlight{
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: #ffffff;
+    vertical-align: super;
+}
+
+.bg_blue{
+    background-color: #3eb4e7;
+}
+
+.bg_violet{
+    background-color: #885ab5;
+}
+
+.bg_green{
+    background-color: #88cd56;
+}
+
+.bg_orange{
+    background-color: #e19a17;
+}
+
+.bg_pink{
+    background-color: #d28cb9;
+}
+
+
+
+
 
 
 
