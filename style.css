@@ -9,6 +9,8 @@ body{
     background-color: #eeeeee;
 }
 
+/* Header */
+
 .main-header{
     background-color: #ffffff;
 }
@@ -24,4 +26,28 @@ body{
     margin-left: 5px;
     vertical-align: bottom;
 }
+
+/* Main */
+
+.wrapper{
+    max-width: 70%;
+    margin: 5% auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.container{
+    max-width:80%;
+    margin: 0 auto;
+}
+
+.buttons{
+    margin: 2% 0 2% 0;
+    padding: 1%;
+}
+
+
+
+
+
 
