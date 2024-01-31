@@ -74,12 +74,6 @@ body{
     color: rgba(39, 37, 37,0.3)
 }
 
-.divider{
-    border-bottom: 3px solid #eeeeee;
-}
-
-
-
 /* Section */
 .display-inline{
     display: inline;
